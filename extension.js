@@ -45,6 +45,8 @@ class MobileToggle extends QuickToggle {
             toggleMode: true,
         });
 
+        this.checked = true;
+
         this.connect('clicked', () => {
           if (this.checked) {
             enablePhoneMode();
@@ -67,6 +69,7 @@ const Indicator = GObject.registerClass(
 
 export default class ForcePhoneModeExtension extends Extension {
   enable() {
+    enablePhoneMode();
     this._indicator = new Indicator();
     Main.panel.statusArea.quickSettings.addExternalIndicator(this._indicator);
   }
