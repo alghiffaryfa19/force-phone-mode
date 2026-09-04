@@ -14,20 +14,20 @@ Main.layoutManager._updateIsPhone is not a function
 
 ## Install
 
-To install this extension, clone this repo into `~/.local/share/gnome-shell/extensions/force-phone-mode@phildevprog.com`.
+To install this extension, clone this repo into `~/.local/share/gnome-shell/extensions/force-phone-mode@fauzan.id`.
 
 ```sh
-git clone https://github.com/phildevprog/force-phone-mode.git ~/.local/share/gnome-shell/extensions/force-phone-mode@phildevprog.com
+git clone https://github.com/alghiffaryfa19/force-phone-mode.git ~/.local/share/gnome-shell/extensions/force-phone-mode@fauzan.id
 ```
 
 ## Update
 
 ```sh
-cd ~/.local/share/gnome-shell/extensions/force-phone-mode@phildevprog.com && git pull
+cd ~/.local/share/gnome-shell/extensions/force-phone-mode@fauzan.id && git pull
 ```
 
 ## Uninstall
 
 ```sh
-rm -rf ~/.local/share/gnome-shell/extensions/force-phone-mode@phildevprog.com
+rm -rf ~/.local/share/gnome-shell/extensions/force-phone-mode@fauzan.id
 ```
